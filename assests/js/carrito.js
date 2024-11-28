@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', () =>{
     ];
     let carrito = []
     const divisa= '$';
-    const DOMitems = Document.querySelector ('items');
-    const DOMcarrito = Document.querySelector ('carrito');
-    const DOMtotal = Document.querySelector ('total');
-    const DOMbotonvaciar = Document.querySelector ('boton-vaciar');
+    const DOMitems = Document.querySelector ('#items');
+    const DOMcarrito = Document.querySelector ('#carrito');
+    const DOMtotal = Document.querySelector ('#total');
+    const DOMbotonvaciar = Document.querySelector ('#boton-vaciar');
 
     //seccion de funciones
     /* Dibujamos todos los productos a partir de la base de datos*/
