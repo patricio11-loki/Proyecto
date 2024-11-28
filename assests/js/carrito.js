@@ -19,6 +19,12 @@ document.addEventListener('DOMContentLoaded', () => {
             precio: 100000,
             image: 'assests/img/producto3.jpg'
         },
+        {
+            id: 4,
+            nombre: 'Vajilla 100% en barro',
+            precio: 150000,
+            image: 'assests/img/vajilla1.png'
+        },
     ];
 
     let carrito = [];
