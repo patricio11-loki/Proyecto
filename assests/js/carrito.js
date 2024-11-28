@@ -5,19 +5,19 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 1,
             nombre: 'Jarro hecho a mano, con estilo del caribe',
             precio: 250000,
-            image: 'assets/img/jarro1.png'
+            image: 'assests/img/jarro1.png'
         },
         {
             id: 2,
             nombre: 'Mochila hecha a mano por nuestras mejores diseñadores',
             precio: 80000,
-            image: 'assets/img/mochila.png'
+            image: 'assests/img/mochila1.png'
         },
         {
             id: 3,
             nombre: 'Cadena elaborada en oro extraído del caribe',
             precio: 100000,
-            image: 'assets/img/producto2.jpg'
+            image: 'assests/img/producto2.jpg'
         },
     ];
 
