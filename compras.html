@@ -163,12 +163,27 @@
                         <!-- Precio total -->
                         <p class="text-right">Total: $ <span id="total"></span></p>
                         <button id="boton-vaciar" class="btn btn-danger" title="Vaciar el carrito">Vaciar</button>
-                        <button id="boton-pagar" class="btn btn-info" title="Pagar el carrito">Pagar</button>
+                        <button class="btn btn-info">
+                        <a href="pago.html" target="target_blank">Pagar</a>
+                        </button>
+                        
                     </aside>
                 </div>
             </div>
-
             <!--Final de carrito-->
+            <div class="row">
+                <ul class="pagination pagination-lg justify-content-end">
+                    <li class="page-item disabled">
+                        <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="#">3</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
@@ -179,47 +194,7 @@
 <!--Inicio pie de pagina-->
 <footer class="bg-dark" id="templatemo_footer">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 pt-5">
-                <h2 class="h2 text-success border-bottom pb-3 border-light log">ProdArt</h2>
-                <ul class="list-unstyled text-ligth footer-link-list">
-                    <li>
-                        <i class="fas fa-map-market-alt fa-fw">Local principal - Cartagena -Colombia</i>
-                           
-                    </li>
-                    <li>
-                        <i class="fa fa-envelope fa-inverse"></i>
-                        <a class="navbar-sm-brand text-ligth text-decoration-none" href="mailto:info@prodart.com">info@prodart-com</a>
-                    </li>
-                    <li>
-                        <i class="fa fa-phone fa-inverse"></i>
-                    <a a class="navbar-sm-brand text-ligth text-decoration-none" href="tel: 057-315-220-35-20">057-315-220-35-20</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-4 pt-5">
-                <h2 class="h2 text-success border-bottom pb-3 border-light log">Productos</h2>
-                <ul class="list-unstyled text-ligth footer-link-list">
-                    <li><a class="text-decoration-none" href="#">Sombreros</a></li>
-                    <li><a class="text-decoration-none" href="#">Hamacas</a></li>
-                    <li><a class="text-decoration-none" href="#">Plateria</a></li>
-                    <li><a class="text-decoration-none" href="#">Decoración</a></li>
-                    <li><a class="text-decoration-none" href="#">Vasos</a></li>
-                    <li><a class="text-decoration-none" href="#">Tapetes</a></li>
-
-                </ul>
-            </div>
-            <div class="col-md-4 pt-5">
-                <h2 class="h2 text-success border-bottom pb-3 border-light log">Mas Información</h2>
-                <ul class="list-unstyled text-ligth footer-link-list">
-                    <li><a class="text-decoration-none" href="index.html">Home</a></li>
-                    <li><a class="text-decoration-none" href="acercade.html">A cerca de</a></li>
-                    <li><a class="text-decoration-none" href="compras.html">Compras</a></li>
-                    <li><a class="text-decoration-none" href="productos.html">Productos</a></li>
-                    <li><a class="text-decoration-none" href="contacto.html">Contacto</a></li>
-            </div>
-        </div>
-    </div>
+        <div class="row">       
     <div class="w-100 bg-dark py-3">
         <div class="container">
             <div class="row">
@@ -228,12 +203,12 @@
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i>
-                            Local principal - Bogotá - Colombia
+                            Local principal - Cartagena -Colombia
                         </li>
 
                         <li>
                             <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel: 057-320-202-02-02">057-320-202-02-02</a>
+                            <a class="text-decoration-none" href="tel: 057-320-202-02-02">0057-315-220-35-20</a>
                         </li>
                         <li>
                             <i class="fa fa-envelope mx-2"></i>
@@ -256,7 +231,7 @@
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Mas información</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="index.html">Home</a></li>
-                        <li><a class="text-decoration-none" href="acercade.html">A cerca de</a></li>
+                        <li><a class="text-decoration-none" href="acercade.html">Nosotros</a></li>
                         <li><a class="text-decoration-none" href="compras.html">Compras</a></li>
                         <li><a class="text-decoration-none" href="productos.html">Productos</a></li>
                         <li><a class="text-decoration-none" href="contacto.html">Contacto</a></li>
@@ -304,8 +279,8 @@
     <!-- fin de pie-->
     <!-- archivos js-->
      <script src="assests/js/bootstrap.bundle.min.js"></script>
-     <script src="assests/js/jquery-migrate-1.2.1.min.js"></script>
      <script src="assests/js/jquery-1.11.0.min.js"></script>
+     <script src="assests/js/jquery-migrate-1.2.1.min.js"></script>   
      <script src="assests/js/templatemo.js"></script>
      <script src="assests/js/custom.js"></script>
      <script src="assests/js/carrito.js"></script>
